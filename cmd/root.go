@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 	"github.com/ddshuai/go-qywx/cmd/api"
+	"github.com/ddshuai/go-qywx/cmd/app"
 	"github.com/spf13/cobra"
 	"os"
 )
@@ -26,6 +27,7 @@ func tip() {
 
 func init() {
 	rootCmd.AddCommand(api.StartCmd)
+	rootCmd.AddCommand(app.StartCmd)
 }
 
 // Execute : apply commands
