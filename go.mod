@@ -1,6 +1,6 @@
-module github.com/ddshuai/go-qywx
+module github.com/ddshuai/qywx
 
-go 1.20
+go 1.25.1
 
 require (
 	github.com/carlmjohnson/requests v0.23.4

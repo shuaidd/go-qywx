@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/ddshuai/go-qywx/cmd/api"
-	"github.com/ddshuai/go-qywx/cmd/app"
-	"github.com/spf13/cobra"
 	"os"
+
+	"github.com/ddshuai/qywx/cmd/api"
+	"github.com/ddshuai/qywx/cmd/app"
+	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{

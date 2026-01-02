@@ -2,7 +2,8 @@ package app
 
 import (
 	"fmt"
-	"github.com/ddshuai/go-qywx/auth"
+
+	"github.com/ddshuai/qywx/auth"
 	"github.com/spf13/cobra"
 )
 

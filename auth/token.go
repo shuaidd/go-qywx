@@ -2,8 +2,9 @@ package auth
 
 import (
 	"context"
+
 	"github.com/carlmjohnson/requests"
-	"github.com/ddshuai/go-qywx/api"
+	"github.com/ddshuai/qywx/api"
 )
 
 type AccessTokenResponse struct {
